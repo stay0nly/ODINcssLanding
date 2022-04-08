@@ -1,21 +1,28 @@
 body {
+    margin: 0;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 header {
+    display: flex;
+    justify-content: space-between;
     height: 50px;
     background-color: #1F2937;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
 }
 
 ul {
@@ -25,6 +32,21 @@ ul {
   padding: 0;
   gap: 16px;
 }
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 25px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+p {
+    color: #767777;
+}
+
 .header_logo {
     display: flex;
     flex-direction: column;
@@ -36,4 +58,39 @@ ul {
 .header_links {
     display: flex;
     align-items: center;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 160px;
+    text-align: left;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+    
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card_item {
+    max-width: 180px;
+}
+
+.card_img {
+    border: 3px #3882f6 solid;
+    border-radius: 5px;
 }
